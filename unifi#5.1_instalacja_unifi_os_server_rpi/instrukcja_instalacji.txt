@@ -1,6 +1,6 @@
 
 ## Instalacja zależności
-apt update && apt install -y podman uidmap slirp4netns iptables curl wget ca-certificates sudo
+sudo apt update && sudo apt install -y podman uidmap slirp4netns iptables curl wget ca-certificates sudo
 
 ## Weryfikacja instalacji aplikacji Podman (musi być w wersji conajmniej 4.3.1)
 podman --version
@@ -9,27 +9,27 @@ podman --version
 ----------------- Dla Debian/Ubuntu ------------------------------------
 
 ## Pobieramy instalator UniFi OS Server 
-mkdir -p /usr/local/src/unifi-os-server
+sudo mkdir -p /usr/local/src/unifi-os-server
 cd /usr/local/src/unifi-os-server
 
-curl -LO https://fw-download.ubnt.com/data/unifi-os-server/8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64
-chmod +x ./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64
+sudo curl -LO https://fw-download.ubnt.com/data/unifi-os-server/8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64
+sudo chmod +x ./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64
 
 ## Instalujemy UniFi OS Server
-./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64 
+sudo ./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64 
 
 
 ----------------- Dla Raspberry PI OS ------------------------------------
 
 ## Pobieramy instalator UniFi OS Server 
-mkdir -p /usr/local/src/unifi-os-server
-cd /usr/local/src/unifi-os-server
+sudo mkdir -p /usr/local/src/unifi-os-server
+sudo cd /usr/local/src/unifi-os-server
 
-curl -LO https://fw-download.ubnt.com/data/unifi-os-server/f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64
-chmod +x ./f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64
+sudo curl -LO https://fw-download.ubnt.com/data/unifi-os-server/f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64
+sudo chmod +x ./f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64
 
 ## Instalujemy UniFi OS Server
-./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64 
+sudo ./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64 
 
 --------------------------------------------------------------------------
 
