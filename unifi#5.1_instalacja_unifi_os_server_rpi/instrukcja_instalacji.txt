@@ -29,7 +29,7 @@ sudo curl -LO https://fw-download.ubnt.com/data/unifi-os-server/f791-linux-arm64
 sudo chmod +x ./f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64
 
 ## Instalujemy UniFi OS Server
-sudo ./8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64 
+sudo ./f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64 
 
 --------------------------------------------------------------------------
 
